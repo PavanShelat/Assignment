@@ -1,0 +1,69 @@
+CSS and CSS3
+
+• What are the benefits of using CSS? 
+Ans:- Faster Page Speed
+	Better User Experience
+	Quicker Development Time
+	Easy Formatting Changes
+	Compatibility Across Device
+• What are the disadvantages of CSS? 
+Ans:- Confusion Due to many CSS levels
+	Cross-browser issues
+	Security Issues
+	Extra work for developers
+• What is the difference between CSS2 and CSS3?   
+Ans:- CSS3 is split into many various documents known as Modules.
+each module adds new capability or extends options outlined in css2
+over conserving backward compatibilty.The css3 version supports more browser than css2.
+• Name a few CSS style components 
+Ans:- Selector:element name,id name,class name
+	Property:color,border,font-size
+	Values:Defines Value allocated for properties
+• What do you understand by CSS opacity? 
+Ans:- Opacity sets the opacity of an element.
+• How can the background color of an element be changed? 
+Ans:- bg color of an element can be changed by using background-color property
+For eg. background-color:"red"; 
+• How can image repetition of the backup be controlled? 
+Ans:- By using image-repeat property
+For eg. image-repeat:"no-repeat";
+• What is the use of the background-position property? 
+Ans:- It sets the initial position for each background image.
+• Which property controls the image scroll in the background? 
+Ans:- background-attachment property.
+• Why should background and color be used as separate properties? 
+Ans:- It enhance the legibility of style sheets.
+• How to center block elements using CSS1? 
+Ans:- By using align-items property.
+• What are the ways to integrate CSS as a web page?
+Ans:- There are three ways to integrate css as a web page
+	Inline css
+	Internal css
+	External css
+• What is embedded style sheets? 
+Ans:- It allows you to define styles for the whole Html Documenrt in one place.
+• What are the external style sheets?
+Ans:- It is a seperate CSS file that can be accessed by creating a link within the head section of the webpage.
+• What are the advantages and disadvantages of using external style sheets? 
+Ans:-The advantages of External Style Sheets are as follows :
+
+With the help of External Style Sheets, the styles of numerous documents can be organized from one single file.
+In External Style Sheets, Classes can be made for use on numerous HTML element types in many forms of the site.
+In complex contexts, Methods like selector and grouping can be implemented to apply styles.
+
+The disadvantages of External Style Sheets are as follows :
+
+An extra download is essential to import style information for each file.
+The execution of the file may be deferred till the external style sheet is loaded.
+While implementing style sheets, we need to test Web pages with multiple browsers in order to check compatibility issues.
+• What is the meaning of the CSS selector? 
+Ans:-A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which
+HTML elements should be selected to have the CSS property values inside the rule applied to them.
+• What are the media types allowed by CSS? 
+Ans:- continuous or paged.
+visual, audio, speech, or tactile.
+grid (for character grid devices), or bitmap.
+interactive (for devices that allow user interaction), or static (for those that do not).
+all (includes all media types)
+• What is the rule set? 
+Ans:-the ruleset is defined as the rule which we have followed for giving style to the selectors. 
