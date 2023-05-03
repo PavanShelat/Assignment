@@ -1,0 +1,54 @@
+• What are the new tags added in HTML5? 
+
+article,aside,audio,header,section,video,canvas,svg,datalist,details,embed,figure,footer,keygen,mark,meter,nav,time,wbr,ruby,progress,output hgroup.
+
+• How to embed audio and video in a webpage? 
+
+To embed audio in HTML, we use the <audio> tag. Before HTML5, audio cannot be added to web pages in the Internet Explorer era. To play audio, we used web plugins like Flash. After the release of HTML5, it is possible. This tag supports Chrome, Firefox, Safari, Opera, and Edge in three audio formats – MP3, WAV, OGG. Only Safari browser doesn’t support OGG audio format.
+
+• Semantic element in HTML5? 
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+• Canvas and SVG tags 
+
+SVG:-
+
+SVG is vector and declarative.If you know you need vector art, SVG is the choice. Vector art is visually crisp and tends to be a smaller file size than raster graphics like JPG.
+
+That makes logos a very common SVG use case. SVG code can go right within HTML, and are like declarative drawing instructions:
+<svg viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="50" />
+</svg>
+
+Canvas:-
+Canvas is a JavaScript drawing API.You put a <canvas> element in HTML, then do the drawing in JavaScript. In other words, you issue commands to tell it how to draw (which is more imperative than declarative).
+
+syntax:-
+<canvas id="myCanvas" width="578" height="200"></canvas>
+<script>
+  var canvas = document.getElementById('myCanvas');
+  var context = canvas.getContext('2d');
+  var centerX = canvas.width / 2;
+  var centerY = canvas.height / 2;
+  var radius = 70;
+
+  context.beginPath();
+  context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+  context.fillStyle = 'green';
+  context.fill();
+</script>
+
+
