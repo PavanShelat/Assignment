@@ -1,0 +1,93 @@
+• What is JavaScript? 
+JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc.
+• What is the use of isNaN function? 
+The JavaScript isNaN() Function is used to check whether a given value is an illegal number or not. It returns true if the value is a NaN else returns false.
+• What is negative Infinity? 
+The negative infinity in JavaScript is a constant value that is used to represent a value that is the lowest available. This means that no other number is lesser than this value. It can be generated using a self-made function or by an arithmetic operation. 
+• Which company developed JavaScript? 
+Brendan Eich
+• What are undeclared and undefined variables? 
+Undefined: It occurs when a variable has been declared but has not been assigned any value. Undefined is not a keyword. 
+Undeclared: It occurs when we try to access any variable that is not initialized or declared earlier using the var or const keyword.The scope of the undeclared variables is always global. 
+
+• What is the difference between ViewState and SessionState?
+Differences between ViewState and SessionState:
+
+ViewState :-
+1.Maintained at page level only.
+2.View state can only be visible from a single page and not multiple pages.
+3.It will retain values in the event of a postback operation occurring.	
+4.Information is stored on the client’s end only.	Information is stored on the server.
+5.used to allow the persistence of page-instance-specific data.	
+6.ViewState values are lost/cleared when new page is loaded.	
+
+SessionState:-
+1.Maintained at session level.
+2.Session state value availability is across all pages available in a user session.
+3.In session state, user data remains in the server. Data is available to user until the browser is closed or there is session expiration.
+4.Information is stored on the server.
+5.used for the persistence of user-specific data on the server’s end.
+6.SessionState can be cleared by programmer or user or in case of timeouts.
+
+• What is === operator?
+The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality operator always considers operands of different types to be different.
+for eg:-
+console.log(1 === 1);
+// Expected output: true
+
+• How can the style/class of an element be changed? 
+
+To Change the style:-
+  document.getelementById("id").style.property
+To Change the class
+  document.getelementById("id").classname = class
+
+• What are all the looping structures in JavaScript? 
+
+Looping structures in javascript:-
+1  for loop
+2  for/in loop
+3  for/out loop
+4  while loop
+5  do/while loop
+
+• How can you convert the string of any base to an integer in JavaScript? 
+
+We can convert a string of any base to an integer in javascript by using the following functons
+1 parseint()
+2 parsefloat()
+3 Unary plus operator(+)
+4 multiplying the string by number 1
+
+• What is the function of the delete operator? 
+ 
+ The delete operator removes a property from an object.If the property's value is an object and there are no mpre reference to the object,the object held by that property is eventually re;eased automatically
+
+• What are all the types of Pop up boxes available in JavaScript? 
+
+Javascript has three popup boxes,these are:-
+1 Alert box
+2 Confirm box 
+3 Prompt box
+
+• What is the use of Void (0)?
+
+Void(0) means returning undefined void as a primitive value
+
+• How can a page be forced to load another page in JavaScript?
+
+window.location object is used to force a page to load another page.
+
+• What are the disadvantages of using innerHTML in JavaScript? 
+
+1  Event handlers attached to any DOM element are preserved
+2  Replacement is done everywhere
+3  It is not possible to append innerHTML
+4  Breaks the document 
+5  Used for cross-site scripting.
+
+
+
+
+
+
